@@ -14,6 +14,7 @@
 	</div>
 	<div class="main_menu">
 		<div class="cnt">
+<<<<<<< HEAD
 			<ul class="menu">
 				<li><a href="#">Взгляд</a></li>
 				<li><a href="#">Вкус</a></li>
@@ -26,6 +27,25 @@
 	</div>
 </header>
 <main></main>
+=======
+			<div class="logo">
+				<img src="img/logo.png" alt="">
+			</div>
+			<div class="main_menu">
+				<ul class="menu">
+					<a href="#"><li>Взгляд</li></a>
+					<a href="#"><li>Вкус</li></a>
+					<a href="#"><li>Звук</li></a>
+					<a href="#"><li>Ощущения</li></a>
+					<a href="#"><li>Запах</li></a>
+					<a href="#"><li>Интуиция</li></a>
+				</ul>
+			</div>
+		</div>
+	</header>
+	
+	<main></main>
+>>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
 	
 <footer></footer>
 

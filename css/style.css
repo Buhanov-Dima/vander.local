@@ -1,8 +1,5 @@
-@font-face {
-    font-family: "Arial";
-    src: url("/fonts/arial.ttf");
-}
 body {
+<<<<<<< HEAD
 	background: #000202;
 	margin: 0;
 	padding: 0;
@@ -13,6 +10,12 @@ body {
 	src: url('/fonts/arial.ttf');
 }
 a:link {text-decoration: none;}
+=======
+	background: #333333!important;
+}
+
+
+>>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
 .cnt {
 	position: relative;
 	max-width: 1250px;
@@ -20,19 +23,31 @@ a:link {text-decoration: none;}
 }
 
 .logo {
+<<<<<<< HEAD
 	
 }
-.main_menu {
-	background-color: rgb(204,0,0);
+=======
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
+>>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
+.main_menu {
+	background-color: red;
+	margin: 0;
 }
 
 .menu {
 	display: flex;
 	justify-content: space-between;
-	max-width: 410px;
+	max-width: 400px;
 	list-style: none;
+<<<<<<< HEAD
 	margin: -45px 0 0 220px;
+=======
+	margin: 115px 0 0 250px;
+>>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
 }
 .menu a {
   font-size: 12px;
@@ -44,9 +59,17 @@ a:link {text-decoration: none;}
 
 .menu a{
 	color: #fff;
+<<<<<<< HEAD
 	line-height: 30px;
 	font-size: 12px;
 	font-family: "Arial";
 	color: rgb( 255, 255, 255 );
 	text-transform: uppercase;
+=======
+}
+
+
+.cnt {
+
+>>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
 }
