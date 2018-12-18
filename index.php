@@ -2,15 +2,18 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>test</title>
+	<title>Van Der Q</title>
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-	<header>
+<header>
+	<div class="cnt">
+		<div class="logo">
+			<img src="img/logo.png" alt="">
+		</div>
+	</div>
+	<div class="main_menu">
 		<div class="cnt">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 			<ul class="menu">
 				<li><a href="#">Взгляд</a></li>
 				<li><a href="#">Вкус</a></li>
@@ -22,61 +25,12 @@
 		</div>
 	</div>
 </header>
-<main></main>
-=======
-			<div class="logo">
-				<img src="img/logo.png" alt="">
-			</div>
-			<div class="main_menu">
-				<ul class="menu">
-					<a href="#"><li>Взгляд</li></a>
-					<a href="#"><li>Вкус</li></a>
-					<a href="#"><li>Звук</li></a>
-					<a href="#"><li>Ощущения</li></a>
-					<a href="#"><li>Запах</li></a>
-					<a href="#"><li>Интуиция</li></a>
-				</ul>
-			</div>
-		</div>
-=======
-			<div class="logo">
-				<img src="img/logo.png" alt="">
-			</div>
-			<div class="main_menu">
-				<ul class="menu">
-					<a href="#"><li>Взгляд</li></a>
-					<a href="#"><li>Вкус</li></a>
-					<a href="#"><li>Звук</li></a>
-					<a href="#"><li>Ощущения</li></a>
-					<a href="#"><li>Запах</li></a>
-					<a href="#"><li>Интуиция</li></a>
-				</ul>
-			</div>
-		</div>
->>>>>>> parent of 2a4be4c... fx-favicon
-=======
-			<div class="logo">
-				<img src="img/logo.png" alt="">
-			</div>
-			<div class="main_menu">
-				<ul class="menu">
-					<a href="#"><li>Взгляд</li></a>
-					<a href="#"><li>Вкус</li></a>
-					<a href="#"><li>Звук</li></a>
-					<a href="#"><li>Ощущения</li></a>
-					<a href="#"><li>Запах</li></a>
-					<a href="#"><li>Интуиция</li></a>
-				</ul>
-			</div>
-		</div>
->>>>>>> parent of 2a4be4c... fx-favicon
-	</header>
+<main>
 	
-	<main></main>
->>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
+</main>
 	
 <footer></footer>
 
-	<script src="/js/main.js"></script>
-	</body>
+<script src="/js/main.js"></script>
+</body>
 </html>

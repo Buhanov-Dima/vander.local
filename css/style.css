@@ -1,58 +1,21 @@
 body {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 	background: #000202;
 	margin: 0;
 	padding: 0;
 }
 
-@font-face{
-	font-family: 'Arial';
-	src: url('/fonts/arial.ttf');
-}
 a:link {text-decoration: none;}
-=======
-	background: #333333!important;
-}
 
-=======
-	background: #333333!important;
-}
 
->>>>>>> parent of 2a4be4c... fx-favicon
-=======
-	background: #333333!important;
-}
-
->>>>>>> parent of 2a4be4c... fx-favicon
-
->>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
 .cnt {
 	max-width: 1250px;
 	margin: 0 auto;
 }
 
 .logo {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-	
-=======
-	position: absolute;
-	top: 0;
-	left: 0;
->>>>>>> parent of 2a4be4c... fx-favicon
-}
-=======
-=======
->>>>>>> parent of 2a4be4c... fx-favicon
-	position: absolute;
-	top: 0;
-	left: 0;
+
 }
 
->>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
 .main_menu {
 	background-color: red;
 	margin: 0;
@@ -63,49 +26,13 @@ a:link {text-decoration: none;}
 	justify-content: space-between;
 	max-width: 400px;
 	list-style: none;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-	margin: -45px 0 0 220px;
-=======
-	margin: 115px 0 0 250px;
->>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
-=======
-	margin: 115px 0 0 250px;
->>>>>>> parent of 2a4be4c... fx-favicon
-}
-.menu a{
-	color: #fff;
+	margin: -55px 0 0 220px;
 }
 
-<<<<<<< HEAD
 .menu a{
-	color: #fff;
-<<<<<<< HEAD
 	line-height: 30px;
 	font-size: 12px;
 	font-family: "Arial";
 	color: rgb( 255, 255, 255 );
 	text-transform: uppercase;
-=======
-=======
-	margin: 115px 0 0 250px;
-}
-.menu a{
-	color: #fff;
->>>>>>> parent of 2a4be4c... fx-favicon
-}
-
-
-.cnt {
-
-<<<<<<< HEAD
->>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
-=======
-
-.cnt {
-
->>>>>>> parent of 2a4be4c... fx-favicon
-=======
->>>>>>> parent of 2a4be4c... fx-favicon
 }
