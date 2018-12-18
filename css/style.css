@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Arial";
+    src: url("/fonts/arial.ttf");
+}
 body {
 	background: #000202;
 	margin: 0;
@@ -9,7 +13,6 @@ body {
 	src: url('/fonts/arial.ttf');
 }
 a:link {text-decoration: none;}
-
 .cnt {
 	position: relative;
 	max-width: 1250px;
@@ -19,16 +22,15 @@ a:link {text-decoration: none;}
 .logo {
 	
 }
-
 .main_menu {
-	background-color: red;
-	margin: 0;
+	background-color: rgb(204,0,0);
+
 }
 
 .menu {
 	display: flex;
 	justify-content: space-between;
-	max-width: 400px;
+	max-width: 410px;
 	list-style: none;
 	margin: -45px 0 0 220px;
 }
@@ -38,4 +40,13 @@ a:link {text-decoration: none;}
   color: rgb(255, 255, 255);
   text-align: left;
   line-height: 1.6;
+}
+
+.menu a{
+	color: #fff;
+	line-height: 30px;
+	font-size: 12px;
+	font-family: "Arial";
+	color: rgb( 255, 255, 255 );
+	text-transform: uppercase;
 }

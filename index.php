@@ -25,10 +25,9 @@
 		</div>
 	</div>
 </header>
+<main></main>
 	
-	<main></main>
-	
-	<footer></footer>
+<footer></footer>
 
 	<script src="/js/main.js"></script>
 	</body>
