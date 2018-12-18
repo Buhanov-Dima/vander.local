@@ -11,7 +11,9 @@
 			<div class="logo">
 				<img src="img/logo.png" alt="">
 			</div>
+		</div>
 			<div class="main_menu">
+				<div class="cnt">
 				<ul class="menu">
 					<a href="#"><li>Взгляд</li></a>
 					<a href="#"><li>Вкус</li></a>
@@ -20,8 +22,8 @@
 					<a href="#"><li>Запах</li></a>
 					<a href="#"><li>Интуиция</li></a>
 				</ul>
+				
 			</div>
-		</div>
 	</header>
 	
 	<main></main>
