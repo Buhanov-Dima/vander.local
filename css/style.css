@@ -1,5 +1,6 @@
 body {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	background: #000202;
 	margin: 0;
 	padding: 0;
@@ -14,17 +15,27 @@ a:link {text-decoration: none;}
 	background: #333333!important;
 }
 
+=======
+	background: #333333!important;
+}
+
+>>>>>>> parent of 2a4be4c... fx-favicon
 
 >>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
 .cnt {
-	position: relative;
 	max-width: 1250px;
 	margin: 0 auto;
 }
 
 .logo {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
+=======
+	position: absolute;
+	top: 0;
+	left: 0;
+>>>>>>> parent of 2a4be4c... fx-favicon
 }
 =======
 	position: absolute;
@@ -44,19 +55,20 @@ a:link {text-decoration: none;}
 	max-width: 400px;
 	list-style: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin: -45px 0 0 220px;
 =======
 	margin: 115px 0 0 250px;
 >>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
+=======
+	margin: 115px 0 0 250px;
+>>>>>>> parent of 2a4be4c... fx-favicon
 }
-.menu a {
-  font-size: 12px;
-  font-family: "Arial";
-  color: rgb(255, 255, 255);
-  text-align: left;
-  line-height: 1.6;
+.menu a{
+	color: #fff;
 }
 
+<<<<<<< HEAD
 .menu a{
 	color: #fff;
 <<<<<<< HEAD
@@ -72,4 +84,9 @@ a:link {text-decoration: none;}
 .cnt {
 
 >>>>>>> parent of ac11fc0... Сделано меню и лого в контейнер 1250px
+=======
+
+.cnt {
+
+>>>>>>> parent of 2a4be4c... fx-favicon
 }
