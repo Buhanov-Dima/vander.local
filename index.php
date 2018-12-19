@@ -24,7 +24,9 @@
 			</ul>
 		</div>
 	</div>
-	<div class="cnt">
+</header>
+<main>
+	<div class="bag">
 		<div id="крючок">
 			<img src="img/крючок.png" alt="">
 		</div>
@@ -32,8 +34,6 @@
 			<img src="img/загогулина.png" alt="">
 		</div>
 	</div>
-</header>
-<main>
 	<div class="cnt">
 		<div id="left_sidebar">
 			
