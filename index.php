@@ -35,8 +35,8 @@
 </header>
 <main>
 	<div class="cnt">
-		<div id="левоеменю">
-			<img src="img/левоеменю.png" alt="">
+		<div id="left_sidebar">
+			
 		</div>
 	</div>
 </main>

@@ -2,11 +2,7 @@ body {
 	background: #000202;
 	margin: 0;
 	padding: 0;
-	background-image: url("/img/стол.png");
-	background-repeat: no-repeat;
-	background-position-y: -34px;
-	background-position-x: 328px;
-	
+	background: url("/img/стол.png");
 }
 
 a:link {
@@ -26,16 +22,12 @@ a:link {
 
 .logo{
 	position: relative;
-	top: 0;
-	left: 0;
 	z-index: 3;
 }
 
 .main_menu {
 	background-color: rgb(204,0,0);
 	position: relative;
-	top: -5px;
-	z-index: 2;
 }
 
 .menu {
@@ -57,20 +49,12 @@ a:link {
 #крючок{
 	position: relative;
 	z-index:3;
-	top:-32px; 
-	left: 770px;
 }
 #загогулина{
 	position: relative;
 	z-index:1;
-	top:-337px; 
-	left: 915px;
 }
 #левоеменю{
 	position: relative;
 	z-index:6;
-	top:-1441px; 
-	left: -203px;
 }
-
-1046
