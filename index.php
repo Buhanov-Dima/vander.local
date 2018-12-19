@@ -24,9 +24,21 @@
 			</ul>
 		</div>
 	</div>
+	<div class="cnt">
+		<div id="крючок">
+			<img src="img/крючок.png" alt="">
+		</div>
+		<div id="загогулина">
+			<img src="img/загогулина.png" alt="">
+		</div>
+	</div>
 </header>
 <main>
-	
+	<div class="cnt">
+		<div id="левоеменю">
+			<img src="img/левоеменю.png" alt="">
+		</div>
+	</div>
 </main>
 	
 <footer></footer>

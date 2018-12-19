@@ -2,23 +2,40 @@ body {
 	background: #000202;
 	margin: 0;
 	padding: 0;
+	background-image: url("/img/стол.png");
+	background-repeat: no-repeat;
+	background-position-y: -34px;
+	background-position-x: 328px;
+	
 }
 
-a:link {text-decoration: none;}
+a:link {
+	text-decoration: none;
+}
 
-
+#стол{
+	position: relative;
+	left: 0px;
+	top: -1280px;
+	z-index: 1;
+}
 .cnt {
 	max-width: 1250px;
 	margin: 0 auto;
 }
 
-.logo {
-
+.logo{
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 3;
 }
 
 .main_menu {
-	background-color: red;
-	margin: 0;
+	background-color: rgb(204,0,0);
+	position: relative;
+	top: -5px;
+	z-index: 2;
 }
 
 .menu {
@@ -36,3 +53,24 @@ a:link {text-decoration: none;}
 	color: rgb( 255, 255, 255 );
 	text-transform: uppercase;
 }
+
+#крючок{
+	position: relative;
+	z-index:3;
+	top:-32px; 
+	left: 770px;
+}
+#загогулина{
+	position: relative;
+	z-index:1;
+	top:-337px; 
+	left: 915px;
+}
+#левоеменю{
+	position: relative;
+	z-index:6;
+	top:-1441px; 
+	left: -203px;
+}
+
+1046
