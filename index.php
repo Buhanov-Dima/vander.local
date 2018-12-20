@@ -26,17 +26,28 @@
 	</div>
 </header>
 <main>
-	<div class="bag">
-		<div id="крючок">
-			<img src="img/крючок.png" alt="">
+	<div class="cnt2">
+		<div class="bag">
+			<div id="hook">
+				<img src="img/hook.png" alt="">
+			</div>
+			<div id="bag_el">
+				<img src="img/bag.png" alt="">
+			</div>
 		</div>
-		<div id="загогулина">
-			<img src="img/загогулина.png" alt="">
+		<div class="lamp">
+			<div id="lamp">
+				<img src="img/lamp.png" alt="">
+			</div>
+			<div id="pipe">
+				<img src="img/pipe.png" alt="">
+			</div>
+			<div id="spider">
+				<img src="img/spider.png" alt="">
+			</div>
 		</div>
-	</div>
-	<div class="cnt">
-		<div id="left_sidebar">
-			
+		<div id="organizer">
+			<img src="img/organizer.png" alt="">
 		</div>
 	</div>
 </main>

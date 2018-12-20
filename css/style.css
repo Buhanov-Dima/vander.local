@@ -1,8 +1,8 @@
 body {
-	background: #000202;
 	margin: 0;
 	padding: 0;
-	background: url("/img/стол.png");
+	background: url("/img/table.png") top -44px center no-repeat, url("/img/squiggle.png") top right 399px no-repeat;
+	background-color: #000202;
 }
 
 a:link {
@@ -46,15 +46,42 @@ a:link {
 	text-transform: uppercase;
 }
 
-#крючок{
-	position: relative;
-	z-index:3;
+.cnt2{
+	max-width: 1250px;
+	margin: 0 auto;
+	height: 900px;
 }
-#загогулина{
+.bag{
+	
+	width: auto;
+	height: 170px;
+	margin: -26px 0px 0 775px;
+}
+
+#hook{
 	position: relative;
+	margin: 0 0 0 72px;
+	z-index:2;
+}
+#bag_el{
+	position: relative;
+	margin: -46px 0 0 0px;
 	z-index:1;
 }
-#левоеменю{
-	position: relative;
-	z-index:6;
+.lamp{
+	margin: -80px 0 0 195px;
+	
+}
+#lamp{
+	height: 225px;
+}
+#pipe{
+	margin: 0 0 0 285px;
+	padding: 0;
+}
+#spider{
+	margin: -10px 0 0 270px;
+}
+#organizer{
+	margin: -95px 0 0 550px;
 }
