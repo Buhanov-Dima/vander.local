@@ -40,14 +40,27 @@
 				<img src="img/lamp.png" alt="">
 			</div>
 			<div id="pipe">
-				<img src="img/pipe.png" alt="">
 			</div>
 			<div id="spider">
 				<img src="img/spider.png" alt="">
 			</div>
 		</div>
-		<div id="organizer">
-			<img src="img/organizer.png" alt="">
+		<div class="organizer">
+			<div id="organizer_main">
+				<img src="img/organizer.png" alt="">
+			</div>
+			<div id="organizer_photo">
+				<img src="img/photo_org1.png" alt="">
+			</div>
+		</div>
+		<div class="pensil_box">
+			<img src="img/pensil_box.png" alt="">
+		</div>
+		<div class="photo_border">
+			<img src="img/photo_border.png" alt="">
+		</div>
+		<div class="flower">
+			<img src="img/flower.png" alt="">
 		</div>
 	</div>
 </main>
