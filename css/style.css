@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: url("/img/table.png") top -44px center no-repeat, url("/img/squiggle.png") top right 399px no-repeat;
+	background: url("/img/back.png") top -44px center no-repeat;
 	background-color: #000202;
 }
 
@@ -36,31 +36,36 @@ a:link {
 }
 
 .cnt2{
+	position: relative;
 	max-width: 1250px;
 	margin: 0 auto;
-	height: 900px;
+	height: auto;
+	overflow:hidden;
 }
 .bag{
 	max-width: 197px;
 	height: auto;
-	margin: -26px 320px 0 auto;
+	margin: 0px 240px 0 auto;
 
 }
 
 #hook{
 	position: relative;
-	margin: 0 0 0 72px;
+	top: -26px;
+	left: 76px;
+	right: auto;
 	z-index:2;
 }
 #bag_el{
 	position: relative;
-	margin: -46px 0 0 0px;
+	margin-top: -72px;
+	margin-left: 3px;
 	z-index:1;
 }
 .lamp{
 	position:absolute;
 	max-width: 432px;
-	margin: -100px 0 0 195px;
+	margin: -100px 0 0 238px;
 	
 }
 #lamp{
@@ -68,38 +73,92 @@ a:link {
 }
 #pipe{
 	position: absolute;
-	top:0;
-	left: 0;
-	margin: 230px 0 0 280px; 
+	top:230px;
+	left: 280px;
 	width: 1px;
-	height: 96px;
+	height: 74px;
 	background-color: black;
 }
 #spider{
 	position: absolute;
-	top:0;
-	left: 0;
-	margin: 325px 0 0 262px; 
+	top:304px;
+	left: 262px;
 }
 .organizer{
 	position: absolute;
-	margin: 150px 0 0 550px;
+	top: 330px;
+	left: 590px;
+	z-index:1;
 }
-#organizer_photo{
+#organizer_photo1{
 	position: absolute;
 	top:0;
 	left: 0;
 	margin: 70px 0 0 20px;
+	z-index:2;
 }
-.pensil_box{
-	margin: 195px 320px 0 auto;
-	max-width: 128px;
+#organizer_photo2{
+	position: absolute;
+	top:0px;
+	left: 40px;
+	margin: 70px 0 0 20px;
+	z-index:1;
 }
+
 .photo_border{
-	display: inline-block;
-	margin: -540px 0 0 0;
-}
-.flower{
 	position: relative;
-	margin: -120px 0 0 200px;
+	display: inline-block;
+	margin: 140px 0 0 147px;
+	z-index:2;
+}
+
+.flower{
+	width: 415px;
+	position: relative;
+	margin: -67px 0 0 245px;
+	z-index:2;
+}
+.press{
+	width: 457px;
+	position: relative;
+	margin: -140px 0 0 44px;
+	z-index:2;
+}
+.photo_cup{
+	position:relative;
+}
+.photo{
+	width: 250px;
+	position: absolute;
+	top: -370px;
+	left: -80px;
+	z-index:2;
+}
+.cup{
+	display: inline-block;
+	position:absolute;
+	top: -16px;
+	left: 140px;
+	z-index: 3;
+}
+.clock{
+	max-width: 206px;
+	position:relative;
+	margin-left: auto;
+	top: -180px;
+	right: 413px;
+	z-index:4;
+}
+.airplane{
+	position: relative;
+	max-width: 335px;
+	margin: -340px 240px 0 auto;
+	top: 0px;
+	left: 0px;
+	z-index:3;
+}
+.card{
+	max-width: 192px;
+	position: relative;
+	margin: -125px 465px 0 auto;
 }

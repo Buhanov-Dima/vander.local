@@ -49,18 +49,38 @@
 			<div id="organizer_main">
 				<img src="img/organizer.png" alt="">
 			</div>
-			<div id="organizer_photo">
+			<div id="organizer_photo1">
 				<img src="img/photo_org1.png" alt="">
 			</div>
-		</div>
-		<div class="pensil_box">
-			<img src="img/pensil_box.png" alt="">
+			<div id="organizer_photo2">
+				<img src="img/photo_org2.png" alt="">
+			</div>
 		</div>
 		<div class="photo_border">
 			<img src="img/photo_border.png" alt="">
 		</div>
 		<div class="flower">
 			<img src="img/flower.png" alt="">
+		</div>
+		<div class="press">
+			<img src="img/press.png" alt="">
+		</div>
+		<div class="photo_cup">
+			<div class="photo">
+				<img id="photo" src="img/photo.png" alt="">
+			</div>
+			<div class="cup">
+				<img src="img/cup.png" alt="">
+			</div>
+		</div>
+		<div class="clock">
+			<img src="img/clock.png" alt="">
+		</div>
+		<div class="airplane">
+			<img src="img/airplane.png" alt="">
+		</div>
+		<div class="card">
+			<img src="img/card.png" alt="">
 		</div>
 	</div>
 </main>
