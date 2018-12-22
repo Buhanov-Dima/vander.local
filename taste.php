@@ -37,13 +37,24 @@
 		</div>
 		<div class="cup_taste">
 			<img src="img/Taste/cup_taste.png" alt="">
+			<div class="coffee">
+				<img src="img/Taste/coffee.png" alt="">
+			</div>
 		</div>
-		<div class="picture_taste">
-			<img src="img/Taste/picture_taste.png" alt="">
+		<div class="paper_pensil">
+			<div class="paper_taste">
+				<img src="img/Taste/piece_paper.png" alt="">
+			</div>
+			<div class="pensil">
+				<img src="img/Taste/pensil.png" alt="">
+			</div>
 		</div>
-		<div class="apples_taste">
-			<img src="img/Taste/apples_taste.png" alt="">
-		</div>
+			<div class="picture_taste">
+				<img src="img/Taste/picture_taste.png" alt="">
+			</div>
+			<div class="apples_taste">
+				<img src="img/Taste/apples_taste.png" alt="">
+			</div>
 	</div>
 </main>
 	

@@ -193,11 +193,194 @@ body.Taste{
 }
 
 .cup_taste{
+	position:relative;
 	max-width: 176px;
 	margin: -190px 285px 0 auto;
+	z-index:3;
 }
-
+.coffee{
+	position:relative;
+	top:-50px;
+	left: 25px;
+}
+.paper_pensil{
+	position:absolute;
+	top:35px;
+	left:212px;
+	z-index:2;
+}
 .picture_taste{
 	position:relative;
-	top: 170px;
+	top: 40px;
+	left: -219px;
+	z-index:1;
+}
+.apples_taste{
+	position:absolute;
+	top: 250px;
+	left: -270px;
+	z-index:2;
+}
+.pensil{
+	position: absolute;
+	z-index:4;
+	top:469px;
+	left: 593px; 	
+}
+
+
+
+body.Sound{
+	margin: 0;
+	padding: 0;
+	background: url("/img/Sound/back_sound.png") top left 325px no-repeat;
+	background-color: black;
+}
+.cnt4{
+	position: relative;
+	max-width: 1250px;
+	margin: 0 auto;
+	height: 900px;
+	overflow:hidden;
+}
+
+.players{
+	display: inline-block;
+	position: absolute;
+	top: 328px;
+	left: -281px;
+}
+.player{
+	position: relative;
+	top:-95px;
+	left: 290px;
+}
+
+
+
+
+body.Intuition{
+	margin: 0;
+	padding: 0;
+	background: url("/img/Intuition/back_intuition.png") top left 325px no-repeat;
+	background-color: black;
+}
+
+.cnt5{
+	position: relative;
+	max-width: 1250px;
+	margin: 0 auto;
+	height: 900px;
+	overflow:hidden;
+}
+.zoom{
+	position:relative;
+	max-width:254px;
+	margin: -190px 320px 0 auto;
+	z-index:3;
+}
+.paper_intuition{
+	position: relative;
+	max-width:638px;
+	margin: -203px 400px 0 auto;
+	z-index:2;
+}
+.airplane_intuition{
+	position:absolute;
+	top:310px;
+	left:-127px;
+	z-index:3;
+}	
+.map_intuition{
+	display:inline-block;
+	position:absolute;
+	top:365px;
+	left:-333px;
+	z-index:1;
+}
+
+
+
+
+body.Smell{
+	margin: 0;
+	padding: 0;
+	background: url("/img/Smell/back_smell.png") top left 325px no-repeat;
+	background-color: black;
+}
+.cnt6{
+	position: relative;
+	max-width: 1250px;
+	margin: 0 auto;
+	height: 900px;
+	overflow:hidden;
+}
+.flower_smell{
+	position: relative;
+	max-width: 209px;
+	margin: -220px 385px 0 auto;
+	z-index:2;
+}
+.paper_smell{
+	position: relative;
+	max-width:638px;
+	margin: -125px 400px 0 auto;
+	z-index:1;
+}
+.pensil_smell{
+	position: absolute;
+	top: 450px;
+	left:595px;
+	max-width:638px;
+	z-index:2;
+}
+.pearls_smell{
+	padding: 0;
+	position: absolute;
+	top:-150px;
+	left:-500px;
+}
+.first_block{
+	max-width: 630px;
+	position:relative;
+	top:-800px;
+	left:0;
+	
+}
+
+.second_block{
+	max-width: 630px;
+	position:relative;
+	top:-775px;
+	left:0;
+	
+}
+
+.third_block{
+	max-width: 630px;
+	position:relative;
+	top:-750px;
+	left:0;
+	
+}
+.headik{
+	background-color: #c6c6c1;
+}
+.cnt_div{
+	max-width: 470px;
+	margin-left: 100px;
+	display:flex;
+	justify-content: left;
+}
+.photos_div{
+	margin:20px;
+}
+h3{
+	margin-left: 150px;
+	width: auto;
+}
+p{
+	max-width: 100%;
+	text-align: left;
+	word-wrap: break-word;
 }
