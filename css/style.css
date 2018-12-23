@@ -384,3 +384,110 @@ p{
 	text-align: left;
 	word-wrap: break-word;
 }
+
+
+
+body.Feeling{
+	margin: 0;
+	padding: 0;
+	background: url("/img/Feeling/back_feeling.png") top left 325px no-repeat;
+	background-color: black;
+}
+.cnt7{
+	position: relative;
+	max-width: 1250px;
+	margin: 0 auto;
+	overflow:hidden;
+	height: 900px;
+}
+
+.picture_top_feeling{
+	position: relative;
+	max-width: 209px;
+	margin: -200px 337px 0 auto;
+	z-index:2;
+}
+
+.clock_feeling{
+	position: relative;
+	max-width: 209px;
+	margin: -195px 365px 0 auto;
+	z-index:2;
+}
+
+.paper_smell{
+	position: relative;
+	max-width:638px;
+	margin: -190px 400px 0 auto;
+	z-index:1;
+}
+.pensil_smell{
+	position: absolute;
+	top: 450px;
+	left:595px;
+	max-width:638px;
+	z-index:2;
+}
+
+.headik{
+	background-color: #c6c6c1;
+}
+.cnt_div{
+	max-width: 470px;
+	margin-left: 100px;
+	display:flex;
+	justify-content: left;
+}
+.photos_div{
+	margin:20px;
+}
+
+.leonardo{
+	display:inline-block;
+	position: absolute;
+	top: 315px;
+	left: -200px;
+}
+
+.field{
+	display:inline-block;
+	position: absolute;
+	top: 610px;
+	left: -100px;
+}
+
+.colors{
+	display:inline-block;
+	position: absolute;
+	top: 180px;
+	left: -450px;
+	z-index:2;
+}
+
+
+
+
+body.View{
+	margin: 0;
+	padding: 0;
+	background: url("/img/View/back_view.png") top left 325px no-repeat;
+	background-color: black;
+}
+.cnt8{
+	position: relative;
+	max-width: 1250px;
+	margin: 0 auto;
+	height: 900px;
+	overflow:hidden;
+}
+.pipe_view{
+	position: relative;
+	max-width: 300px;
+	max-height: 645px;
+	margin: -570px 300px 0 auto;
+}
+.photo_view{
+	position:absolute;
+	top: 40px;
+	left: -65px;
+}
