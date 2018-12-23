@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="View">
+<div class="test">
 <header>
 	<div class="cnt">
 		<div class="logo">
@@ -15,12 +16,12 @@
 	<div class="main_menu">
 		<div class="cnt">
 			<ul class="menu">
-				<li><a href="#">Взгляд</a></li>
-				<li><a href="#">Вкус</a></li>
-				<li><a href="#">Звук</a></li>
-				<li><a href="#">Ощущения</a></li>
-				<li><a href="#">Запах</a></li>
-				<li><a href="#">Интуиция</a></li>
+				<li><a href="view.php">Взгляд</a></li>
+				<li><a href="taste.php">Вкус</a></li>
+				<li><a href="sound.php">Звук</a></li>
+				<li><a href="feeling.php">Ощущения</a></li>
+				<li><a href="smell.php">Запах</a></li>
+				<li><a href="intuition.php">Интуиция</a></li>
 			</ul>
 		</div>
 	</div>
@@ -36,10 +37,10 @@
 			</div>
 		</div>
 		<div class="pipe_view">
-			<img src="img/View/pipe.png" alt="">
+			<img id="img_pipe_view" src="img/View/pipe.png" alt="">
 		</div>
 		<div class="photo_view">
-			<img src="img/View/photo.png" alt="">
+			<img id="img_photo_view" src="img/View/photo.png" alt="">
 		</div>
 	</div>
 </main>
@@ -47,5 +48,6 @@
 <footer></footer>
 
 <script src="/js/main.js"></script>
+</div>
 </body>
 </html>

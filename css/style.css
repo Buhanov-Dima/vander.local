@@ -1,3 +1,7 @@
+.test{
+	overflow:hidden;
+}
+
 body.Main {
 	margin: 0;
 	padding: 0;
@@ -39,8 +43,31 @@ a:link {
 	position: relative;
 	max-width: 1250px;
 	margin: 0 auto;
-	height: 900px;
-	overflow: hidden;
+	max-height: 900px;
+}
+.vert_menu{
+	position: absolute;
+	border-right: 1px solid white;
+	width: 130px;
+	height: 400px;
+	padding-top: 30px;
+	background: radial-gradient (to top right, blue, red);
+}
+.vert_menu ul{
+	list-style-type: none;
+	list-style-position: outside;
+	color: white;
+}
+.vert_menu li{
+	border: 1px solid black;
+	margin-left: -40px;
+}
+.vert_menu a{
+	color:white;
+	display: block;
+	background: linear-gradient(to top, #444545 50%, #FFFFFF);
+	text-decoration: none;
+	opacity: 0.5;
 }
 .bag{
 	max-width: 197px;
@@ -128,12 +155,18 @@ a:link {
 	position:relative;
 }
 .photo{
-	width: 250px;
+	max-width: 250px;
 	position: absolute;
 	top: -370px;
-	left: -130px;
+	left: 0px;
 	z-index:2;
+	overflow: hidden;
 }
+#photo{
+	position: relative;
+	left:-125px;
+}
+
 .cup{
 	display: inline-block;
 	position:absolute;
@@ -163,9 +196,15 @@ a:link {
 	margin: -125px 515px 0 auto;
 }
 .photo_left{
+	max-width: 200px;
 	position: relative;
 	top: -180px;
-	left: -65px;
+	left: 0px;
+	overflow:hidden;
+}
+#photo_left{
+	position: relative;
+	left:-82px;
 }
 
 
@@ -183,7 +222,6 @@ body.Taste{
 	max-width: 1250px;
 	margin: 0 auto;
 	height: 900px;
-	overflow: hidden;
 }
 
 .bag_taste{
@@ -191,7 +229,6 @@ body.Taste{
 	max-width: 197px;
 	margin: 0 70px 0 auto;
 }
-
 .cup_taste{
 	position:relative;
 	max-width: 176px;
@@ -210,16 +247,29 @@ body.Taste{
 	z-index:2;
 }
 .picture_taste{
+	max-width:370px;
 	position:relative;
 	top: 40px;
-	left: -219px;
+	left: 0px;
 	z-index:1;
+	overflow:hidden;
+
+}
+#img_picture_taste{
+	position:relative;
+	left:-219px;
 }
 .apples_taste{
+	max-width:532px;
 	position:absolute;
 	top: 250px;
-	left: -270px;
+	left: 0px;
 	z-index:2;
+	overflow:hidden;
+}
+#img_apples_taste{
+	position:relative;
+	left:-260px;
 }
 .pensil{
 	position: absolute;
@@ -241,7 +291,6 @@ body.Sound{
 	max-width: 1250px;
 	margin: 0 auto;
 	height: 900px;
-	overflow:hidden;
 }
 
 .players{
@@ -250,10 +299,21 @@ body.Sound{
 	top: 328px;
 	left: -281px;
 }
+#record_player{
+	max-width: 280px;
+	position: absolute;
+	top: 0;
+	left:280px;
+	overflow: hidden;
+}
+#img_player{
+	position: relative;
+	left:-260px;
+}
 .player{
 	position: relative;
-	top:-95px;
-	left: 290px;
+	top:382px;
+	left: 310px;
 }
 
 
@@ -271,7 +331,6 @@ body.Intuition{
 	max-width: 1250px;
 	margin: 0 auto;
 	height: 900px;
-	overflow:hidden;
 }
 .zoom{
 	position:relative;
@@ -286,19 +345,30 @@ body.Intuition{
 	z-index:2;
 }
 .airplane_intuition{
+	max-width:266px;
 	position:absolute;
 	top:310px;
-	left:-127px;
+	left:0;
 	z-index:3;
+	overflow:hidden;
 }	
+#img_airplane_intuition{
+	position:relative;
+	left:-127px;
+}
 .map_intuition{
+	max-width:245px;
 	display:inline-block;
 	position:absolute;
 	top:365px;
-	left:-333px;
+	left:0px;
 	z-index:1;
+	overflow:hidden;
 }
-
+#img_map_intuition{
+	position:relative;
+	left:-333px;
+}
 
 
 
@@ -313,18 +383,18 @@ body.Smell{
 	max-width: 1250px;
 	margin: 0 auto;
 	height: 900px;
-	overflow:hidden;
 }
 .flower_smell{
 	position: relative;
 	max-width: 209px;
-	margin: -220px 385px 0 auto;
+	margin: -220px 370px 0 auto;
 	z-index:2;
 }
 .paper_smell{
 	position: relative;
-	max-width:638px;
-	margin: -125px 400px 0 auto;
+	max-width:635px;
+	top: -129px;
+	left:212px;
 	z-index:1;
 }
 .pensil_smell{
@@ -335,31 +405,37 @@ body.Smell{
 	z-index:2;
 }
 .pearls_smell{
+	max-width:450px;
 	padding: 0;
 	position: absolute;
 	top:-150px;
+	left:0px;
+	overflow:hidden;
+}
+#img_pearls_smell{
+	position: relative;
 	left:-500px;
 }
 .first_block{
-	max-width: 630px;
-	position:relative;
-	top:-800px;
+	width: 632px;
+	position:absolute;
+	top: 70px;
 	left:0;
 	
 }
 
 .second_block{
-	max-width: 630px;
-	position:relative;
-	top:-775px;
+	width: 632px;
+	position:absolute;
+	top:295px;
 	left:0;
 	
 }
 
 .third_block{
-	max-width: 630px;
-	position:relative;
-	top:-750px;
+	width: 632px;
+	position:absolute;
+	top:520px;
 	left:0;
 	
 }
@@ -367,7 +443,7 @@ body.Smell{
 	background-color: #c6c6c1;
 }
 .cnt_div{
-	max-width: 470px;
+	max-width: 445px;
 	margin-left: 100px;
 	display:flex;
 	justify-content: left;
@@ -380,9 +456,11 @@ h3{
 	width: auto;
 }
 p{
-	max-width: 100%;
+	width: 100%;
+	max-height: 130px;
 	text-align: left;
 	word-wrap: break-word;
+	overflow-y: scroll;
 }
 
 
@@ -397,7 +475,6 @@ body.Feeling{
 	position: relative;
 	max-width: 1250px;
 	margin: 0 auto;
-	overflow:hidden;
 	height: 900px;
 }
 
@@ -415,13 +492,13 @@ body.Feeling{
 	z-index:2;
 }
 
-.paper_smell{
+.paper_feeling{
 	position: relative;
 	max-width:638px;
-	margin: -190px 400px 0 auto;
+	margin: -185px 400px 0 auto;
 	z-index:1;
 }
-.pensil_smell{
+.pensil_feeling{
 	position: absolute;
 	top: 450px;
 	left:595px;
@@ -429,42 +506,44 @@ body.Feeling{
 	z-index:2;
 }
 
-.headik{
-	background-color: #c6c6c1;
-}
-.cnt_div{
-	max-width: 470px;
-	margin-left: 100px;
-	display:flex;
-	justify-content: left;
-}
-.photos_div{
-	margin:20px;
-}
 
 .leonardo{
+	max-width: 255px;
 	display:inline-block;
 	position: absolute;
 	top: 315px;
+	left: 0px;
+	overflow:hidden;
+}
+#img_leonardo{
+	position: relative;
 	left: -200px;
 }
-
 .field{
+	max-width: 195px; 
 	display:inline-block;
 	position: absolute;
 	top: 610px;
+	left: 0px;
+	overflow:hidden;
+}
+#img_field{
+	position: relative;
 	left: -100px;
 }
-
 .colors{
+	max-width: 320px;
 	display:inline-block;
 	position: absolute;
 	top: 180px;
-	left: -450px;
+	left: 0px;
 	z-index:2;
+	overflow:hidden;
 }
-
-
+#img_colors{
+	position: relative;
+	left: -450px;
+}
 
 
 body.View{
@@ -478,7 +557,6 @@ body.View{
 	max-width: 1250px;
 	margin: 0 auto;
 	height: 900px;
-	overflow:hidden;
 }
 .pipe_view{
 	position: relative;
@@ -487,7 +565,13 @@ body.View{
 	margin: -570px 300px 0 auto;
 }
 .photo_view{
+	max-width: 400px;
 	position:absolute;
 	top: 40px;
+	left: 0px;
+	overflow: hidden;
+}
+#img_photo_view{
+	position:relative;
 	left: -65px;
 }

@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="Feeling">
+<div class="test">
 <header>
 	<div class="cnt">
 		<div class="logo">
@@ -15,12 +16,12 @@
 	<div class="main_menu">
 		<div class="cnt">
 			<ul class="menu">
-				<li><a href="#">Взгляд</a></li>
-				<li><a href="#">Вкус</a></li>
-				<li><a href="#">Звук</a></li>
-				<li><a href="#">Ощущения</a></li>
-				<li><a href="#">Запах</a></li>
-				<li><a href="#">Интуиция</a></li>
+				<li><a href="view.php">Взгляд</a></li>
+				<li><a href="taste.php">Вкус</a></li>
+				<li><a href="sound.php">Звук</a></li>
+				<li><a href="feeling.php">Ощущения</a></li>
+				<li><a href="smell.php">Запах</a></li>
+				<li><a href="intuition.php">Интуиция</a></li>
 			</ul>
 		</div>
 	</div>
@@ -41,7 +42,7 @@
 		<div class="clock_feeling">
 			<img src="img/Feeling/clock.png" alt="">
 		</div>
-		<div class="paper_smell">
+		<div class="paper_feeling">
 			<div class="paper">
 				<img src="img/Smell/piece_paper.png" alt="">
 				<div class="first_block">
@@ -72,18 +73,18 @@
 					</div>						
 				</div>
 			</div>
-			<div class="pensil_smell">
+			<div class="pensil_feeling">
 				<img src="img/Smell/pensil.png" alt="">
 			</div>		
 		</div>
 		<div class="field">
-			<img src="img/Feeling/field.png" alt="">
+			<img id="img_field" src="img/Feeling/field.png" alt="">
 		</div>
 		<div class="leonardo">
-			<img src="img/Feeling/leonardo.png" alt="">
+			<img id="img_leonardo" src="img/Feeling/leonardo.png" alt="">
 		</div>
 		<div class="colors">
-			<img src="img/Feeling/colors.png" alt="">
+			<img id="img_colors" src="img/Feeling/colors.png" alt="">
 		</div>
 	</div>
 </main>
@@ -91,5 +92,6 @@
 <footer></footer>
 
 <script src="/js/main.js"></script>
+</div>
 </body>
 </html>

@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="Main">
+<div class="test">
 <header>
 	<div class="cnt">
 		<div class="logo">
@@ -15,18 +16,29 @@
 	<div class="main_menu">
 		<div class="cnt">
 			<ul class="menu">
-				<li><a href="#">Взгляд</a></li>
-				<li><a href="#">Вкус</a></li>
-				<li><a href="#">Звук</a></li>
-				<li><a href="#">Ощущения</a></li>
-				<li><a href="#">Запах</a></li>
-				<li><a href="#">Интуиция</a></li>
+				<li><a href="view.php">Взгляд</a></li>
+				<li><a href="taste.php">Вкус</a></li>
+				<li><a href="sound.php">Звук</a></li>
+				<li><a href="feeling.php">Ощущения</a></li>
+				<li><a href="smell.php">Запах</a></li>
+				<li><a href="intuition.php">Интуиция</a></li>
 			</ul>
 		</div>
 	</div>
 </header>
 <main>
 	<div class="cnt2">
+		<div class="vert_menu">
+			<ul>
+				<li><a href="index.php">Главная</a></li>
+				<li><a href="view.php">Взгляд</a></li>
+				<li><a href="taste.php">Вкус</a></li>
+				<li><a href="sound.php">Звук</a></li>
+				<li><a href="feeling.php">Ощущения</a></li>
+				<li><a href="smell.php">Запах</a></li>
+				<li><a href="intuition.php">Интуиция</a></li>
+			</ul>
+		</div>
 		<div class="bag">
 			<div id="hook">
 				<img src="img/Main/hook.png" alt="">
@@ -83,7 +95,7 @@
 			<img src="img/Main/card.png" alt="">
 		</div>
 		<div class="photo_left">
-				<img src="img/Main/photo_left.png" alt="">
+				<img id="photo_left" src="img/Main/photo_left.png" alt="">
 			</div>
 	</div>
 </main>
@@ -91,5 +103,6 @@
 <footer></footer>
 
 <script src="/js/main.js"></script>
+</div>
 </body>
 </html>
