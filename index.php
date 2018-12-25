@@ -81,8 +81,13 @@
 			<div class="photo">
 				<img id="photo" src="img/Main/photo.png" alt="">
 			</div>
+			<div class="lightning">
+				<img id="lightning" src="img/Main/lightning2.png" alt="">
+			</div>
 			<div class="cup">
 				<img src="img/Main/cup.png" alt="">
+			</div>
+			<div class="smoke">
 			</div>
 		</div>
 		<div class="clock">
