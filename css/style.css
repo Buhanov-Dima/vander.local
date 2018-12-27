@@ -455,7 +455,6 @@ body.Sound{
 }
 
 .players{
-	display: inline-block;
 	position: absolute;
 	top: 328px;
 	left: -281px;
