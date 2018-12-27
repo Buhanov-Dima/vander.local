@@ -7,8 +7,23 @@
 	background: url("/img/Main/back.png") top -44px center no-repeat;
 	background-color: #000202;
 	overflow: hidden;
-	height: 1045px;
+	position: relative;
+	background-size: 1200px; /* по ширине десктопа */
+/*	height: 1045px;  высота */
 }
+
+.test_main::before {
+	content: '';
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0,1) 56%, rgba(0, 0, 0, .6) 80%, rgba(0, 0, 0, .001) 100%);
+    z-index: 100;
+}
+
+
 
 body.Main {
 	margin: 0;
@@ -21,7 +36,7 @@ a:link {
 }
 
 .cnt {
-	max-width: 1280px;
+	width: 1200px;
 	margin: 0 auto;
 	
 }
@@ -55,27 +70,41 @@ a:link {
  
 .cnt2{
 	position: relative;
-	max-width: 1280px;
-	margin: 0 auto 0px auto;
-	height: 800px;
+	width: 1200px;
+	margin: 0 auto 190px auto;
+	height: 800px; /* высота опять она */
 }
 .vert_menu{
 	position: absolute;
 	width: 130px;
 	height: 380px;
 	padding-top: 15px;
-	background: radial-gradient(circle closest-corner at 180px 150px, #fff, #444545);
-	opacity: 0.4;
+	background: radial-gradient(circle closest-corner at 180px 150px, rgba(255, 255, 255, .4), rgba(68,69,69, .4));/* цвета выставляй через RGBA */
 	z-index:3;
 }
+
+/**
 .vert_menu ul{
 	list-style-type: none;
 	list-style-position: outside;
 }
+**/
+
+.vert_menu ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+/**
 .vert_menu li{
 	border: 1px solid black;
 	margin-left: -40px;
 }
+**/
+.vert_menu li{
+}
+
+/** 
 .vert_menu a{
 	color: black;
 	display: block;
@@ -89,9 +118,24 @@ a:link {
 	letter-spacing:1px;
 	font-size: 18px;
 }
+**/
+
+.vert_menu a {
+    color: black;
+    display: block;
+    background: linear-gradient(to top, rgba(68,69,69, .4) 10%, rgba(255, 255, 255, .4));
+    text-decoration: none;
+    line-height: 2;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: font12;
+    letter-spacing: 1px;
+    font-size: 14px;
+    transition: .3s;
+}
+
 .vert_menu a:hover{
-	background: linear-gradient(to top, #FFF 10%, #444545);
-	
+	background: linear-gradient(to top, rgba(255, 255, 255, .4) 10%, rgba(68,69,69, .4)); /*rgba*/
 }
 .bag{
 	max-width: 197px;
@@ -325,24 +369,37 @@ a:link {
 	left:-82px;
 }
 
+/**
+
 .footer_full{
 	background-color: rgb(204,0,0);
 	width: 100%;
 	height: 10px;
 }
+
+**/
+
+/**
 .footer{
-	max-width: 1280px;
+	width: 1200px; нет смысла выставлять ширину контейнера
 	margin: 0 auto;
-	position: relative;
-	bottom: 0;
-	left: 0;
-	height: 100px;
+	position: relative; позиционирование не несет никакой смысловой нагрузки
+	bottom: 0; позиционирование не несет никакой смысловой нагрузки
+	left: 0; позиционирование не несет никакой смысловой нагрузки
+	height: 100px; плохая идея задавать высоту
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
 	overflow:hidden;
 }
+**/
 
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 
 .telephone{
 	color: red;
@@ -373,9 +430,14 @@ a:link {
 	color: white;
 	text-decoration: none;
 }
+/**
+.vk{
+	margin-left: 300px;
+}
+**/
 
 .vk{
-		margin-left: 300px;
+	margin-top: 30px;
 }
 .facebook{
 		
@@ -399,7 +461,7 @@ body.Taste{
 
 .cnt3{
 	position: relative;
-	max-width: 1280px;
+	width: 1200px;
 	margin: 0 auto;
 	height: 910px;
 }
@@ -469,7 +531,7 @@ body.Sound{
 }
 .cnt4{
 	position: relative;
-	max-width: 1280px;
+	width: 1200px;
 	margin: 0 auto;
 	height: 900px;
 }
@@ -509,7 +571,7 @@ body.Intuition{
 
 .cnt5{
 	position: relative;
-	max-width: 1280px;
+	width: 1200px;
 	margin: 0 auto;
 	height: 910px;
 }
@@ -563,7 +625,7 @@ body.Smell{
 }
 .cnt6{
 	position: relative;
-	max-width: 1280px;
+	width: 1200px;
 	margin: 0 auto;
 	height: 910px;
 }
@@ -656,7 +718,7 @@ body.Feeling{
 }
 .cnt7{
 	position: relative;
-	max-width: 1280px;
+	width: 1200px;
 	margin: 0 auto;
 	height: 910px;
 }
@@ -740,7 +802,7 @@ body.View{
 }
 .cnt8{
 	position: relative;
-	max-width: 1280px;
+	width: 1200px;
 	margin: 0 auto;
 	height: 900px;
 }
@@ -761,4 +823,13 @@ body.View{
 #img_photo_view{
 	position:relative;
 	left: -65px;
+}
+
+
+footer::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 10px;
+	background-color: rgb(204,0,0);
 }
