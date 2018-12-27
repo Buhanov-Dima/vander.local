@@ -1,5 +1,5 @@
 .test_main{
-	background: url("/img/Main/back.png") top -34px center no-repeat;
+	background: url("/img/Main/back.png") top -42px center no-repeat;
 	background-color: #000202;
 	overflow: hidden;
 	background-size: 1200px auto; 
@@ -52,7 +52,7 @@ a:link {
 .cnt2{
 	position: relative;
 	width: 1200px;
-	margin: 0 auto 190px auto;
+	margin: 0 auto;
 	height: 900px;
 }
 
@@ -333,6 +333,7 @@ a:link {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	background-color: black;
 }
 
 .telephone{
