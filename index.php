@@ -6,7 +6,6 @@
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="Main">
-<div class="test_main">
 <header>
 	<div class="cnt">
 		<div class="logo">
@@ -103,13 +102,8 @@
 				<img id="photo_left" src="img/Main/photo_left.png" alt="">
 			</div>
 	</div>
-</main>
-</div>	
+</main>	
 <footer>
-<!-- 	бесполезный блок - сделал через псевдоэлемент
-
-		<div class="footer_full"></div> 
--->
 	<div class="footer">
 		<div class="vk">
 			<a href="https://vk.com/club4618320"><img src="img/footer/vk.png" alt=""></a>
@@ -121,14 +115,6 @@
 			<a href="tel:+79117226050">+7 (911) 722 60 50</a>
 			<a href="info@vanderq.ru">info@vanderq.ru</a>
 		</div>
-		
-<!-- 	Лишние блоки, можно обойтись без них
-
-		<div class="facebook"></div>
-		<div class="livejournal"></div>
-		<div class="youtube"></div>
-
--->
 	</div>
 </footer>
 
