@@ -544,7 +544,7 @@ body.Smell{
 	position: relative;
 	width: 1200px;
 	margin: 0 auto;
-	height: 910px;
+	height: 810px;
 }
 .flower_smell{
 	position: relative;
@@ -586,7 +586,6 @@ body.Smell{
 	left:0;
 	
 }
-
 .second_block{
 	width: 632px;
 	position:absolute;
@@ -594,7 +593,6 @@ body.Smell{
 	left:0;
 	
 }
-
 .third_block{
 	width: 632px;
 	position:absolute;
