@@ -544,7 +544,7 @@ body.Smell{
 	position: relative;
 	width: 1200px;
 	margin: 0 auto;
-	height: 810px;
+	height: 910px;
 }
 .flower_smell{
 	position: relative;
@@ -555,7 +555,7 @@ body.Smell{
 .paper_smell{
 	position: relative;
 	max-width:635px;
-	top: -629px;
+	top: -129px;
 	left:212px;
 	z-index:2;
 }
@@ -586,6 +586,7 @@ body.Smell{
 	left:0;
 	
 }
+
 .second_block{
 	width: 632px;
 	position:absolute;
@@ -593,6 +594,7 @@ body.Smell{
 	left:0;
 	
 }
+
 .third_block{
 	width: 632px;
 	position:absolute;
@@ -612,7 +614,7 @@ body.Smell{
 .photos_div{
 	margin:20px;
 }
-.headik h3{
+h3{
 	margin-left: 150px;
 	width: auto;
 }
