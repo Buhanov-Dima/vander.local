@@ -134,7 +134,7 @@ a:link {
 .lamp{
 	position:absolute;
 	max-width: 432px;
-	top: 60px;
+	top: 52px;
 	left: 180px;
 	
 }
@@ -212,7 +212,7 @@ a:link {
 
 .photo_border{
 	position: absolute;
-	top: 300px;
+	top: 292px;
 	left: 90px;
 	z-index:3;
 }
@@ -220,21 +220,21 @@ a:link {
 .flower{
 	width: 415px;
 	position: absolute;
-	top: 485px;
+	top: 477px;
 	left: 185px;
 	z-index:2;
 }
 .press{
 	width: 457px;
 	position: absolute;
-	top: 530px;
+	top: 522px;
 	left: -16px;
 	z-index:3;
 }
 .photo_cup{
 	position:relative;
 	z-index:3;
-	top: 540px;
+	top: 532px;
 }
 .photo{
 	max-width: 250px;
@@ -250,7 +250,6 @@ a:link {
 }
 
 .lightning{
-	display: inline-block;
 	position: absolute;
 	top: -490px;
 	left: 0;
@@ -266,7 +265,6 @@ a:link {
 }
 
 .cup{
-	display: inline-block;
 	position:absolute;
 	top: -26px;
 	left: 90px;
@@ -299,27 +297,27 @@ a:link {
 .clock{
 	max-width: 206px;
 	position:absolute;
-	top: 520px;
+	top: 512px;
 	right: 433px;
 	z-index:4;
 }
 .airplane{
 	position: absolute;
 	max-width: 335px;
-	top: 570px;
+	top: 562px;
 	right: 260px;
 	z-index:3;
 }
 .card{
 	max-width: 192px;
 	position: absolute;
-	top: 695px;
+	top: 687px;
 	right:485px;
 }
 .photo_left{
 	max-width: 200px;
 	position: absolute;
-	top: 680px;
+	top: 672px;
 	left: 0px;
 	overflow:hidden;
 }
