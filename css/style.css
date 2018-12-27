@@ -555,7 +555,7 @@ body.Smell{
 .paper_smell{
 	position: relative;
 	max-width:635px;
-	top: -129px;
+	top: -629px;
 	left:212px;
 	z-index:2;
 }
@@ -614,7 +614,7 @@ body.Smell{
 .photos_div{
 	margin:20px;
 }
-h3{
+.headik h3{
 	margin-left: 150px;
 	width: auto;
 }
