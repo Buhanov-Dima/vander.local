@@ -2,8 +2,13 @@ header{
 	position: absolute;
 	left: 0;
 	right: 0;
+	z-index: 20;
 }
 
+main {
+	position: relative;
+	z-index: 10;
+}
 .test_main{
 	background: url("/img/Main/back.png") top -42px center no-repeat;
 	background-color: #000202;
@@ -107,26 +112,30 @@ a:link {
 	background: linear-gradient(to top, rgba(255, 255, 255, .4) 10%, rgba(68,69,69, .4)); 
 }
 .bag{
-	max-width: 197px;
-	height: auto;
-	margin: -400px 290px 0 auto;
+	width: 185px;
+    position: absolute;
+    right: 250px;
+}
+.bag.all_page {
+
 }
 
 #hook{
-	position: relative;
-	top: -26px;
-	left: 76px;
-	right: auto;
-	z-index:2;
+	position: absolute;
+    width: 32px;
+    top: -31px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
 }
 #bag_el{
-	position: relative;
-	margin-top: -72px;
-	margin-left: 3px;
-	z-index:1;
-	animation-name: bag_el;
-	animation-duration: 3s; 
-	animation-iteration-count: infinite;
+    position: absolute;
+    top: -31px;
+    z-index: 0;
+    animation-name: bag_el;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes bag_el {
@@ -243,7 +252,7 @@ a:link {
 .photo_cup{
 	position:relative;
 	z-index:3;
-	top: 532px;
+	top: 311px;
 }
 .photo{
 	max-width: 250px;

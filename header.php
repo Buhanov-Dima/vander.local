@@ -24,4 +24,14 @@
 			</ul>
 		</div>
 	</div>
+	<div class="cnt">
+		<div class="bag all_page">
+			<div id="hook">
+				<img src="img/Main/hook.png" alt="">
+			</div>
+			<div id="bag_el">
+				<img src="img/Main/bag.png" alt="">
+			</div>
+		</div>
+	</div>
 </header>
