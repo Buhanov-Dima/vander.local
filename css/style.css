@@ -1,10 +1,15 @@
+header{
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
 .test_main{
-	background: url("/img/Main/back.png") top center no-repeat;
+	background: url("/img/Main/back.png") top -42px center no-repeat;
 	background-color: #000202;
-	background-size: 1200px auto; 
+	background-size: 1200px; 
 	position: relative;
-	padding-top: 182px;
-	margin-top: -182px;
+	padding-top: 137px;
 	z-index:-1;
 }
 
