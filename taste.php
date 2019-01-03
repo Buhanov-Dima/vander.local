@@ -13,14 +13,6 @@
 				<li><a href="intuition.php">Интуиция</a></li>
 			</ul>
 		</div>
-		<div class="bag_taste">
-			<div id="hook">
-				<img src="img/Main/hook.png" alt="">
-			</div>
-			<div id="bag_el">
-				<img src="img/Main/bag.png" alt="">
-			</div>
-		</div>
 		<div class="cup_taste">
 			<img src="img/Taste/cup_taste.png" alt="">
 			<div class="coffee">
