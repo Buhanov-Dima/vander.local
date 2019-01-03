@@ -1,10 +1,12 @@
 .test_main{
-	background: url("/img/Main/back.png") top -42px center no-repeat;
+	background: url("/img/Main/back.png") top center no-repeat;
 	background-color: #000202;
-	overflow: hidden;
 	background-size: 1200px auto; 
+	position: relative;
+	padding-top: 182px;
+	margin-top: -182px;
+	z-index:-1;
 }
-
 
 body.Main {
 	margin: 0;
@@ -17,9 +19,10 @@ a:link {
 }
 
 .cnt {
+	position: relative;
+	z-index:1;
 	width: 1200px;
 	margin: 0 auto;
-	
 }
 
 .main_menu {
@@ -33,7 +36,6 @@ a:link {
 	max-width: 400px;
 	list-style: none;
 	margin: -55px 0 0 230px;
-	z-index:2;
 }
 
 .menu a{
@@ -54,6 +56,7 @@ a:link {
 	width: 1200px;
 	margin: 0 auto;
 	height: 900px;
+	z-index:2;
 }
 
 .cnt2::before {
@@ -68,10 +71,12 @@ a:link {
 }
 
 .vert_menu{
+	position: relative;
 	width: 130px;
 	height: 380px;
 	padding-top: 15px;
 	background: radial-gradient(circle closest-corner at 180px 150px, rgba(255, 255, 255, .4), rgba(68,69,69, .4));
+	z-index: 0;
 }
 
 .vert_menu ul{
@@ -100,7 +105,6 @@ a:link {
 	max-width: 197px;
 	height: auto;
 	margin: -400px 290px 0 auto;
-
 }
 
 #hook{
@@ -369,12 +373,14 @@ a:link {
 
 
 
-
-body.Taste{
-	margin: 0;
-	padding: 0;
+.test_taste{
 	background: url("/img/Taste/back_taste.png") top center no-repeat;
-	background-color: black;
+	background-color: #000202;
+	background-size: 1200px auto; 
+	position: relative;
+	padding: 182px;
+	margin-top: -182px;
+	z-index:-1;
 }
 
 .cnt3{
@@ -382,12 +388,14 @@ body.Taste{
 	width: 1200px;
 	margin: 0 auto;
 	height: 910px;
+	z-index:5;
 }
 
 .bag_taste{
-	position: relative;
+	position: absolute;
 	max-width: 197px;
-	margin: 0 70px 0 auto;
+	right: 80px;
+	top:0;
 }
 .cup_taste{
 	position:absolute;
@@ -441,11 +449,14 @@ body.Taste{
 
 
 
-body.Sound{
-	margin: 0;
-	padding: 0;
+.test_sound{
 	background: url("/img/Sound/back_sound.png") top center no-repeat;
-	background-color: black;
+	background-color: #000202;
+	background-size: 1200px auto; 
+	position: relative;
+	padding-top: 140px;
+	margin-top: -140px;
+	z-index:-1;
 }
 .cnt4{
 	position: relative;
@@ -479,12 +490,8 @@ body.Sound{
 
 
 
-body.Intuition{
-	margin: 0;
-	padding: 0;
-	background: url("/img/Intuition/back_intuition.png") top center no-repeat;
-	background-color: black;
-}
+
+
 
 .cnt5{
 	position: relative;
@@ -534,12 +541,7 @@ body.Intuition{
 
 
 
-body.Smell{
-	margin: 0;
-	padding: 0;
-	background: url("/img/Smell/back_smell.png") top center no-repeat;
-	background-color: black;
-}
+
 .cnt6{
 	position: relative;
 	width: 1200px;
@@ -627,12 +629,7 @@ h3{
 
 
 
-body.Feeling{
-	margin: 0;
-	padding: 0;
-	background: url("/img/Feeling/back_feeling.png") top center no-repeat;
-	background-color: black;
-}
+
 .cnt7{
 	position: relative;
 	width: 1200px;
@@ -711,12 +708,7 @@ body.Feeling{
 }
 
 
-body.View{
-	margin: 0;
-	padding: 0;
-	background: url("/img/View/back_view.png") top center no-repeat;
-	background-color: black;
-}
+
 .cnt8{
 	position: relative;
 	width: 1200px;
@@ -750,3 +742,4 @@ footer::before {
 	height: 10px;
 	background-color: rgb(204,0,0);
 }
+

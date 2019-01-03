@@ -1,6 +1,7 @@
 <?php include ('header.php'); ?>
 
 <main>
+	<div class="test_main">
 	<div class="cnt2">
 		<div class="vert_menu">
 			<ul>
@@ -76,6 +77,7 @@
 		<div class="photo_left">
 				<img id="photo_left" src="img/Main/photo_left.png" alt="">
 			</div>
+	</div>
 	</div>
 </main>	
 

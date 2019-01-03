@@ -6,7 +6,6 @@
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="Main">
-<div class="test_main">
 <header>
 	<div class="cnt">
 		<div class="logo">
