@@ -1,4 +1,4 @@
-<?php include ('header.php'); ?>
+<?php include ('header-2.php'); ?>
 <main>
 	<div class="test_taste">
 	<div class="cnt3">

@@ -25,7 +25,7 @@
 		</div>
 	</div>
 	<div class="cnt">
-		<div class="bag">
+		<div class="bag all_page">
 			<div id="hook">
 				<img src="img/Main/hook.png" alt="">
 			</div>
