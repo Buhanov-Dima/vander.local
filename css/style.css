@@ -83,10 +83,10 @@ a:link {
 .vert_menu{
 	position: relative;
 	width: 130px;
-	height: 380px;
 	padding-top: 15px;
 	background: radial-gradient(circle closest-corner at 180px 150px, rgba(255, 255, 255, .4), rgba(68,69,69, .4));
-	z-index: 0;
+	z-index: 1;
+	padding-bottom: 40px;
 }
 
 .vert_menu ul{
@@ -250,9 +250,9 @@ a:link {
 	z-index:3;
 }
 .photo_cup{
-	position:relative;
+	position:absolute;
 	z-index:3;
-	top: 311px;
+	top: 700px;
 }
 .photo{
 	max-width: 250px;
@@ -388,34 +388,27 @@ a:link {
 
 
 .test_taste{
-	background: url("/img/Taste/back_taste.png") top -42px center no-repeat;
+	background: url("/img/Taste/back_taste.png") top left 350px no-repeat;
 	background-color: #000202;
-	background-size: 1200px auto; 
-	position: relative;
-	padding: 137px;
-	z-index:-1;
+	background-size: 1200px; 
+	padding-top: 137px;
 }
 
 .cnt3{
 	position: relative;
 	width: 1200px;
 	margin: 0 auto;
-	height: 910px;
 	z-index:5;
+	height: 900px;
+	overflow: hidden;
 }
 
-.bag_taste{
-	position: absolute;
-	max-width: 197px;
-	right: 80px;
-	top:0;
-}
 .cup_taste{
-	position:absolute;
-	max-width: 176px;
-	top: -20px;
-	right: 335px;
-	z-index:3;
+	position: absolute;
+    max-width: 176px;
+    top: -23px;
+    right: 315px;
+    z-index: 5;
 }
 .coffee{
 	position:relative;
@@ -424,14 +417,14 @@ a:link {
 }
 .paper_pensil{
 	position:absolute;
-	top:35px;
-	left:212px;
+	top:25px;
+	left:157px;
 	z-index:2;
 }
 .picture_taste{
 	max-width:370px;
 	position:relative;
-	top: 40px;
+	top: 60px;
 	left: 0px;
 	z-index:1;
 	overflow:hidden;
@@ -465,11 +458,8 @@ a:link {
 .test_sound{
 	background: url("/img/Sound/back_sound.png") top center no-repeat;
 	background-color: #000202;
-	background-size: 1200px auto; 
-	position: relative;
-	padding-top: 140px;
-	margin-top: -140px;
-	z-index:-1;
+	background-size: 1200px; 
+	padding-top: 137px;
 }
 .cnt4{
 	position: relative;
@@ -480,7 +470,7 @@ a:link {
 
 .players{
 	position: absolute;
-	top: 328px;
+	top: 230px;
 	left: -281px;
 }
 #record_player{
@@ -505,7 +495,12 @@ a:link {
 
 
 
-
+.test_intuition{
+	background: url("/img/Intuition/back_intuition.png") top center no-repeat;
+	background-color: #000202;
+	background-size: 1200px; 
+	padding-top: 137px;
+}
 .cnt5{
 	position: relative;
 	width: 1200px;
@@ -554,17 +549,22 @@ a:link {
 
 
 
-
+.test_smell{
+	background: url("/img/Smell/back_smell.png") top center no-repeat;
+	background-color: #000202;
+	background-size: 1200px; 
+	padding-top: 137px;
+}
 .cnt6{
 	position: relative;
 	width: 1200px;
 	margin: 0 auto;
-	height: 910px;
+	height: 970px;
 }
 .flower_smell{
 	position: relative;
 	max-width: 209px;
-	margin: -220px 370px 0 auto;
+	margin: -300px 370px 0 auto;
 	z-index:3;
 }
 .paper_smell{
@@ -588,7 +588,7 @@ a:link {
 	top:-180px;
 	left:0px;
 	overflow:hidden;
-	z-index:1;
+	z-index:0;
 }
 #img_pearls_smell{
 	position: relative;
@@ -642,12 +642,17 @@ h3{
 
 
 
-
+.test_feeling{
+	background: url("/img/Feeling/back_feeling.png") top center no-repeat;
+	background-color: #000202;
+	background-size: 1200px; 
+	padding-top: 137px;
+}
 .cnt7{
 	position: relative;
 	width: 1200px;
 	margin: 0 auto;
-	height: 910px;
+	height: 900px;
 }
 
 .picture_top_feeling{
@@ -669,7 +674,7 @@ h3{
 .paper_feeling{
 	position: absolute;
 	max-width:638px;
-	top:35px;
+	top:25px;
 	right:430px;
 	z-index:1;
 }
@@ -710,7 +715,7 @@ h3{
 	max-width: 320px;
 	display:inline-block;
 	position: absolute;
-	top: 180px;
+	top: 226px;
 	left: 0px;
 	z-index:2;
 	overflow:hidden;
@@ -721,7 +726,12 @@ h3{
 }
 
 
-
+.test_view{
+	background: url("/img/View/back_view.png") top center no-repeat;
+	background-color: #000202;
+	background-size: 1200px; 
+	padding-top: 137px;
+}
 .cnt8{
 	position: relative;
 	width: 1200px;
@@ -737,7 +747,7 @@ h3{
 .photo_view{
 	max-width: 400px;
 	position:absolute;
-	top: 40px;
+	top: 375px;
 	left: 0px;
 	overflow: hidden;
 	z-index:2;

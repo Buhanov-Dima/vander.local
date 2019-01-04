@@ -1,5 +1,6 @@
-<?php include ('header.php'); ?>
+<?php include ('header-2.php'); ?>
 <main>
+	<div class="test_view">
 	<div class="cnt8">
 		<div class="vert_menu">
 			<ul>
@@ -12,20 +13,13 @@
 				<li><a href="intuition.php">Интуиция</a></li>
 			</ul>
 		</div>
-		<div class="bag_taste">
-			<div id="hook">
-				<img src="img/Main/hook.png" alt="">
-			</div>
-			<div id="bag_el">
-				<img src="img/Main/bag.png" alt="">
-			</div>
-		</div>
 		<div class="pipe_view">
 			<img id="img_pipe_view" src="img/View/pipe.png" alt="">
 		</div>
 		<div class="photo_view">
-			<img id="img_photo_view" src="img/View/photo.png" alt="">
+			<img id="img_photo_view" src="img/View/photo2.png" alt="">
 		</div>
+	</div>
 	</div>
 </main>
 <?php include ('footer.php'); ?>

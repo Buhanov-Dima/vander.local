@@ -1,4 +1,4 @@
-<?php include ('header.php'); ?>
+<?php include ('header-2.php'); ?>
 <main>
 	<div class="test_sound">
 	<div class="cnt4">
@@ -12,14 +12,6 @@
 				<li><a href="smell.php">Запах</a></li>
 				<li><a href="intuition.php">Интуиция</a></li>
 			</ul>
-		</div>
-		<div class="bag_taste">
-			<div id="hook">
-				<img src="img/Main/hook.png" alt="">
-			</div>
-			<div id="bag_el">
-				<img src="img/Main/bag.png" alt="">
-			</div>
 		</div>
 		<div class="players">
 			<div id="record_player">

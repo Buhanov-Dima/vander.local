@@ -1,5 +1,6 @@
-<?php include ('header.php'); ?>
+<?php include ('header-2.php'); ?>
 <main>
+	<div class="test_feeling">
 	<div class="cnt7">
 		<div class="vert_menu">
 			<ul>
@@ -11,14 +12,6 @@
 				<li><a href="smell.php">Запах</a></li>
 				<li><a href="intuition.php">Интуиция</a></li>
 			</ul>
-		</div>
-		<div class="bag_taste">
-			<div id="hook">
-				<img src="img/Main/hook.png" alt="">
-			</div>
-			<div id="bag_el">
-				<img src="img/Main/bag.png" alt="">
-			</div>
 		</div>
 		<div class="picture_top_feeling">
 			<img src="img/Feeling/picture_top.png" alt="">
@@ -70,6 +63,7 @@
 		<div class="colors">
 			<img id="img_colors" src="img/Feeling/colors2.png" alt="">
 		</div>
+	</div>
 	</div>
 </main>
 <?php include ('footer.php'); ?>
